@@ -1,0 +1,694 @@
+TEMA 4 : Plataformas
+de IA
+
+                       CE IA&BD
+
+                       PIA
+                       ENCARNA DELGADO
+ Índice
+1. Introducción a las plataformas de IA.
+2. Servicios en la nube.
+3. Computación en la nube.
+4. Plataformas de IA.
+5. Flujo de trabajo para el desarrollo de aplicaciones de IA.
+6. Oportunidades de las plataformas de IA.
+1. Introducción a las
+plataformas de IA
+▪ Durante este tema abordaremos el estudio y desarrollo de la
+ Inteligencia Artiﬁcial desde el punto de vista de la computación en la
+ nube.
+
+
+▪ Discutiremos además los beneﬁcios que aporta la computación en la
+ nube en desarrollos que requieren de un comportamiento inteligente.
+
+
+▪Estudiaremos una serie de ejemplos de entornos para que nos sirvan
+ como referencia y veremos las oportunidades que ofrecen en función
+ del contexto.
+2. Servicios en la nube
+Los principales servicios que se ofrecen hoy en día en la nube se pueden clasiﬁcar en tres
+categorías principales:
+▪Infraestructura en la nube (IaaS): Proporciona los recursos de infraestructura básicos,
+ como servidores, almacenamiento y redes. Los usuarios pueden utilizar estos recursos para
+ crear su propia infraestructura de TI.
+▪Plataformas en la nube (PaaS): Proporciona una plataforma completa para especíﬁcas
+ para desarrollar, ejecutar y administrar aplicaciones. Se pueden utilizar estas plataformas
+ para crear aplicaciones sin necesidad de preocuparse por la infraestructura subyacente.
+▪Software como servicio (SaaS): Proporciona aplicaciones completas que se ejecutan en la
+ nube. Los usuarios pueden acceder a estas aplicaciones desde cualquier dispositivo con
+ conexión a Internet
+2. Servicios en la nube
+Infraestructura en la nube (IaaS):
+
+
+ ▪ Máquinas virtuales (VM): instancias de hardware virtualizadas que se pueden utilizar
+   para ejecutar aplicaciones y sistemas operativos
+ ▪ Almacenamiento: almacenar datos, archivos, bases de datos y aplicaciones.
+ ▪ Redes: conectar dispositivos y aplicaciones
+ ▪ Bases de datos: almacenar y administrar datos.
+ 2. Servicios en la nube
+ Infraestructura en la nube (IaaS)
+                                                                                                   Google Cloud Platform
+  Tipo de servicio     Amazon Web Services (AWS)                     Microsoft Azure                      (GCP)
+                     Amazon Elastic Compute Cloud (EC2)        Azure Virtual Machines (VMs)     Compute Engine
+Máquinas virtuales   Amazon Elastic Container Service (ECS)    Azure Container Service (AKS)    Kubernetes Engine
+(VM)                 Amazon Elastic Kubernetes Service (EKS)   Azure Kubernetes Service (AKS)   Anthos
+                     Amazon Simple Storage Service (S3)        Azure Blob Storage               Cloud Storage
+                     Amazon Elastic Block Store (EBS)          Azure Disk Storage               Cloud Filestore
+Almacenamiento       Amazon Elastic File System (EFS)          Azure Files                      Cloud Persistent Disk
+                     Amazon Virtual Private Cloud (VPC)        Azure Virtual Network (VNET)     Cloud Virtual Network (VPC)
+                     Amazon Route 53                           Azure Traffic Manager            Cloud Load Balancing
+Redes                Amazon CloudFront                         Azure Front Door                 Cloud CDN
+                                                               Azure Database for PostgreSQL    Cloud SQL for PostgreSQL
+                     Amazon Relational Database Service (RDS), Azure SQL Database               MySQL
+Bases de datos       Amazon Redshift, Amazon Aurora            Azure Cosmos DB                  SQL Server
+2. Servicios en la nube
+Plataformas en la nube (PaaS):
+
+
+ • Desarrollo y despliegue: Estos servicios proporcionan las herramientas y servicios
+   necesarios para desarrollar, desplegar y administrar aplicaciones en la nube.
+ • Integración y entrega continuas (CI/CD): automatización del proceso de desarrollo y
+   despliegue de aplicaciones. Entrega continúa y control de versiones
+ • Gestión de contenedores: escalar y administrar aplicaciones
+ • Análisis de datos: herramientas de análisis y visualización de datos
+ • Inteligencia artiﬁcial y aprendizaje automático
+2. Servicios en la nube
+Plataformas en la nube (PaaS):
+
+    Categoría         Amazon Web Services (AWS)                               Microsoft Azure                         Google Cloud Platform (GCP)
+                                                                                                                   Google App Engine,
+                                                                                                                   Google Cloud Build,
+Desarrollo y        AWS Elastic Beanstalk, AWS CodePipeline, AWS Azure App Service, Azure DevOps, Azure Pipelines, Google Cloud Deployment Manager,
+despliegue          CodeDeploy, AWS OpsWorks, AWS ECS            Azure Stack Hub, Azure Container Service (AKS) Google Kubernetes Engine (GKE)
+                                                                 Azure DevOps                                      Google Cloud Build,
+                    AWS CodePipeline,                            Azure Pipelines                                   Google Cloud Deployment Manager,
+                    AWS CodeDeploy, AWS CodeBuild,               Azure Artifacts                                   Google Cloud Artifact Registry,
+CI/CD               AWS CodeStar, AWS CodeArtifact               Azure DevTest Labs                                Google Cloud Testing
+                    Amazon Elastic Container Service (ECS),                                                        Google Kubernetes Engine (GKE),
+                    Amazon Elastic Kubernetes Service (EKS),     Azure Container Service (AKS), Azure Kubernetes Google Container Registry (GCR),
+Contenedores        Amazon Elastic Container Registry (ECR)      Service (AKS), Azure Container Registry (ACR)     Cloud Run
+                                                                                                                   Cloud Dataproc,
+                    Amazon Athena, Amazon Redshift Spectrum,     Azure Databricks, Azure Data Factory, Azure Lake Cloud Dataflow,
+Análisis de datos   Amazon QuickSight, Amazon SageMaker          Analytics, Azure Machine Learning                 Cloud Data Fusion
+                                                                                                                   Cloud Machine Learning Engine
+                                                                 Azure Machine Learning,                           Cloud Vision API
+                    Amazon SageMaker, Amazon Rekognition,        Azure Cognitive Services,                         Cloud Natural Language API
+IA y ML             Amazon Comprehend, Amazon Lex                Azure Bot Service, Azure Face API                 Cloud Translation API
+2. Servicios en la nube
+Software como servicio (SaaS)
+
+
+ ▪ Aplicaciones de productividad: Herramientas para tareas cotidianas, como procesamiento
+   de texto, hojas de cálculo, presentaciones y correo electrónico.
+ ▪ Aplicaciones empresariales: Tareas empresariales especíﬁcas, como gestión de recursos
+   humanos, gestión de la cadena de suministro y gestión de las relaciones con los clientes.
+ ▪ Aplicaciones de comercio electrónico: Plataformas para vender productos y servicios en
+   línea.
+2. Servicios en la nube
+Software como servicio (SaaS)
+
+                Amazon Web Services                                     Google Cloud Platform
+Categoría       (AWS)               Microsoft Azure                     (GCP)
+                Amazon WorkDocs           Microsoft 365
+                                                                        Google Workspace,
+                Amazon Chime              Microsoft Teams
+                                                                        Google Meet
+Productividad   Amazon Textract           Microsoft Viva
+                Amazon Business,
+                                          Microsoft Dynamics 365,       Google Cloud ERP,
+                AWS Enterprise Data
+Empresariales                             Microsoft Power Platform,     Google Cloud CRM,
+                Warehouse,
+                                          Azure Synapse Analytics       Google Cloud Dataproc
+                Amazon SageMaker Canvas
+                                          Microsoft Commerce Platform
+Comercio                                                                Google Cloud Commerce
+                Amazon QuickSight,        Azure Bot Service
+electrónico                                                             Google Cloud Dialogflow
+                Amazon Lex
+2. Servicios en la nube
+
+                  Cada empresa debe diseñar su plan de
+                  TI eligiendo qué servicios quiere (o
+                  puede) administrar “on-site” o en la nube
+
+                  Esto se conformará combinando los
+                  distintos servicios que las plataformas
+                  ofrecen.
+Pipeline en DevOps (CI/CD)
+
+
+https://www.youtube.com/watch?v=yuehJFPbVn0
+3. Computación en la nube
+▪ En 1956 nace el término inteligencia artiﬁcial gracias al informático John McCarthy y a la
+ ayuda de Marvin Minsky y Claude Shannon. Este concepto designado en la conferencia de
+ Dartmouth deﬁnía la palabra como la ciencia e ingeniería de “hacer máquinas inteligentes.”
+
+
+▪ Muchas de las ideas que surgieron antes del siglo XXI no eran viables debido a la carencia
+ de datos y sobre todo por la falta de un hardware que pudiera procesar esas cantidades de
+ datos.
+
+
+▪ Los sistemas basados en IA requieren de grandes cantidades de datos para entrenar los
+ modelos que permiten simular el comportamiento humano y máquinas ultra potentes para
+ procesarlos.
+3. Computación en la nube para IA
+Sólo unas pocas compañías tienen a su
+disposición las tecnologías, el dinero y el
+personal necesarios para trabajar en avances de
+la Inteligencia Artiﬁcial.
+
+
+
+En este sentido, son los grandes gigantes
+tecnológicos, quienes tienen los medios
+suﬁcientes para hacer uso de la IA, llevan
+realizando en los últimos años considerables
+inversiones para crear soluciones que permitan
+acercar esta tecnología al mayor número de
+personas posibles.
+3. Computación en la nube para IA
+▪ El vehículo para hacer esto posible es a través de la computación en la
+ nube o cloud computing.
+
+
+▪ Este término no es más que una metáfora para hacer referencia a las
+ capas de abstracción ofrecidas bajo hardware virtual en sistemas
+ complejos distribuidos por todo el mundo. Particularmente estas
+ capacidades son las que hacen posible crear plataformas basadas en
+ IA.
+3. Beneficios de la computación
+en la nube
+▪La computación en la nube habilita el suministro de recursos TI bajo
+ demanda a través de internet mediante pago por su uso.
+
+
+▪La nube suministra recursos informáticos a la carta con el clic de un botón o
+ la invocación de una API.
+
+
+▪A medida que pasa el tiempo hay cada vez más recursos para
+ desarrolladores de los que podemos disponer, también en forma de SDKs
+3. Beneficios de la computación
+en la nube
+Los beneﬁcios de la computación en la nube para IA son:
+
+▪ Agilidad: nos permite disponer de recursos a medida que se necesitan.
+
+▪ Ahorro de costes: se basa en el modelo de pago por uso.
+
+▪ Elasticidad: capacidad de automáticamente escalar recursos en función de la carga
+ de la aplicación.
+
+▪ Innovación rápida: ayuda a experimentar con nuevos algoritmos, frameworks y
+ hardware
+
+▪ Despliegue en minutos.
+
+▪ Transición ﬂuida de prototipado a producción.
+4. Plataformas de IA
+▪ Una plataforma de IA es un ecosistema completo cargado de herramientas y
+ servicios que facilitan el desarrollo de aplicaciones inteligentes y que ocultan la
+ complejidad inherente de la tarea.
+
+
+▪ El origen de estas plataformas de IA es algo relativamente novedoso. Estos
+ ecosistemas surgen de la mano de las infraestructuras cloud por disponer de
+ recursos masivos TI con los que alimentar modelos de aprendizaje automático.
+
+
+▪ Debido a su naturaleza, cuantos más datos reciba el sistema, mejores serán las
+ decisiones a tomar.
+4. Plataformas de IA
+Gartner (empresa estadounidense dedicada a la consultoría e
+investigación de las tecnologías de la información con una denotada
+reputación mundial) realiza un informe anual con las plataformas
+más relevantes. Algunas de estas plataformas son:
+▪ Amazon AI. (AWS)
+▪ Microsoft Azure AI.
+▪ Google Cloud AI.
+▪ IBM Watson.
+4. Plataformas de IA
+4. Plataformas de IA
+IDC MarketScape es una herramienta de análisis de
+mercado creada para identificar los principales
+proveedores de una industria y evaluar los productos y
+servicios que ofrecen.
+
+En cuanto a plataformas de ML podemos ver como
+destacados:
+
+▪ Amazon AI (AWS)
+▪ Microsoft Azure AI
+▪ Google Cloud AI.
+▪ IBM Watson.
+4.1. Amazon AI (AWS)
+Actualmente con una poderosa atracción para todo tipo y tamaño de arquitectos de
+sw, directores de tecnología, desarrolladores etc…
+
+Si se trata de un nuevo producto SaaS las empresas intentan ir a AWS desde el
+principio.
+
+Si alguien tiene problemas en otras plataformas, se quieren ir a AWS
+
+Entre las mejores opciones para la infraestructura de la nube:
+
+
+ ◦ Gran gama de servicios
+ ◦ Estrategia de bajos precios
+4.1. Amazon AI (AWS)
+▪ Amazon SageMaker: Es la plataforma PaaS (Platform as a Service) de
+  referencia para el ciclo de vida completo del aprendizaje automático
+
+
+▪ Servicios de IA Especializados (Ready-to-use): Servicios SaaS
+  (Software as a Service) que ofrecen funciones de IA mediante APIs, sin
+  necesidad de saber nada de modelos o entrenamiento.
+4.1. Amazon AI (AWS)
+AWS ofrece varios servicios potentes y ricos en funciones IA/ ML
+
+▪ Polly: Conversión de texto a voz. Capacidad muy valorada en estos tiempos porque permite a las empresas
+ crear aplicaciones inteligentes verdaderamente “vivas” con voz creíble y similar a la humana
+
+▪ Transcribe: servicio reverso de Polly. Su salida es extremadamente precisa. Capaz de captar diferentes
+ acentos y eliminar ruido de fondo. Genera gran cantidad de metadatos.
+
+▪ Rekognition image: detecta objetos, escenas y rostros; extrae texto, reconoce a personas famosas e
+ identiﬁca contenido inapropiado en imágenes
+
+▪ Fraud detector: el fraude cuesta a las empresas mucho dinero. Ofrece capacidades de detección de fraude en
+ creación de nuevas cuentas, pago en línea, abuso de programas de ﬁdelidad…
+
+▪ Lex: capacidades para la creación de chatbots inteligentes.
+
+▪ Kendra: servicio de búsqueda de documentos usando natural language processing para ajustas las búsquedas
+4.1. Amazon AI (AWS)
+4.1. Amazon AI (AWS)
+
+Web de Amazon IA Services
+https://aws.amazon.com/es/machine-learning/ai-servic
+es/
+Video breve resumen (no técnico)
+
+https://www.youtube.com/watch?v=x2vrg7HuM6g
+4.1. Amazon AI (AWS)
+
+Certiﬁcaciones AWS
+
+https://www.youtube.com/watch?v=GFOks0IRWbQ
+
+Tutoriales SageMaker
+https://aws.amazon.com/es/sagemaker/getting-started/?reﬁd=ap_
+card
+4.2 Microsoft Azure Services
+Cuando se trata de ofertas en la nube MS ocupa el tercer lugar por detrás de AWS y
+Google.
+
+Estrategia de migración de servicios de Windows existentes hace que se arrastre a los
+clientes.
+
+Azure es bien conocido pero sus servicios de IA no tanto. Destacan:
+
+▪ Azure IA Services: plataforma completa para la creación de servicios inteligentes
+ basados en APIs especializadas
+
+▪ Azure Machine Lerning: tanto para equipos de MS como clientes. Escalar proyectos
+ de desarrollo de ML y crear funciones inteligentes para conectar a sus procesos
+ comerciales.
+4.2 Microsft Azure Services
+Áreas de Azure IA Services:
+▪ Vision: Las APIs de visión que se ofrecen incluyen capacidades como análisis de imágenes y
+ vídeos, reconocimiento de objetos, detección de rostros e indexador de videos con
+ generación de metadatos.
+▪ Speech: Las APIs brindan a las aplicaciones la capacidad de trabajar con el habla humana.
+ Las ofertas clave incluyen conversión de voz a texto, traducción y reconocimiento de voz.
+▪ Language: Se basan en procesamiento de lenguaje natural extrayendo el significado,
+ incluyendo análisis de sentimientos y otros metadatos.
+▪ Decision: Conjunto de APIs de uso general que ayudan a tomar decisiones basadas en ML.
+ Incluyen detección de anomalías, moderación de contenido…
+4.2 Microsoft Azure Services
+Azure AI ofrece una cartera de
+servicios diseñados para
+desarrolladores y científicos de
+datos.
+
+Permite crear modelos de
+aprendizaje propios con
+herramientas como Jupyter
+Notebooks y VS Code y marcos de
+código abierto como TensorFlow y
+PyTorch
+4.2 Microsoft Azure Services
+En julio de 2019, Microsoft anunció una inversión
+de 1.000 millones de dólares en OpenAI, lo que
+le dio a una participación minoritaria en la
+empresa.
+Como parte del acuerdo se convirtió en el
+proveedor exclusivo de servicios de
+computación en la nube para OpenAI. Esto
+significa que OpenAI utiliza Azure para alojar sus
+servicios de inteligencia artificial
+En enero de 2023, Microsoft anunció una nueva
+inversión de 1.000 millones de dólares en
+OpenAI. Esta inversión extendió el acuerdo de
+colaboración entre ambas empresas y permitió a
+Microsoft acceder a tecnologías de IA más
+avanzadas de OpenAI.
+4.2 Microsoft Azure Services
+Artículo Xataka GPT y MS
+
+https://www.xataka.com/ordenadores/que-sabemos-increible-superc
+omputador-microsoft-que-hizo-posible-gpt-4-hace-funcionar-a-chat
+gpt
+4.2 Microsoft Azure Services
+
+Introducción a IA Essentials
+
+https://www.youtube.com/watch?v=qJGRd34Hnl0
+
+Recursos para desarrolladores
+https://azure.microsoft.com/es-es/solutions/ai/dev-resourc
+es/
+4.3. Google Cloud
+Google Cloud ofrece una amplia gama de servicios de AI y Machine Learning para ayudar a los clientes a construir, entrenar y
+desplegar modelos de ML en la nube. Estos son algunos de los servicios de AI y Machine Learning de Google Cloud ofrece:
+
+▪Vertex IA: entrenar, evaluar y desplegar modelos de Machine Learning a gran escala, alojarlos en la nube y realizar predicciones
+ sobre datos nuevos.
+
+▪Vertex IA Auto ML: servicios de aprendizaje automático que permite crear modelos de ML personalizados sin la necesidad de tener
+ experiencia en programación o en ciencia de datos.
+
+▪BigQuery ML: herramienta de aprendizaje automático integrada en el servicio de análisis de datos en la nube de Google, permite
+ crear modelos de aprendizaje automático utilizando SQL
+
+▪Dialogﬂow: servicio de procesamiento del lenguaje natural (NLP). Permite a los desarrolladores crear aplicaciones de chatbot y de
+ asistente virtual.
+
+▪Cloud Vision API: detectar y comprender el contenido visual en imágenes y videos. Cuenta con un entorno de desarrollo
+ administrado, Vertex AI Vision
+
+▪Cloud Natural Language API: permite obtener estadísticas a partir de texto no estructurado con el aprendizaje automático de
+ Google.
+
+▪Cloud Translation API: permite traducir texto de un idioma a otro. Traduce contenido en 135 idiomas.
+4.3. Google Cloud
+4.3. Google Cloud
+4.3. Google Cloud
+
+
+Google cloud cheatset
+https://googlecloudcheatsheet.withgoogle.c
+om/
+4.4. IBM Watson
+El proyecto Watson de IBM para IA ha sido uno de los más madrugadores en este campo.
+
+Desde 2011 ha sido reconocido como pionero, actualmente incluye un amplio conjunto de
+productos enfocados principalmente a empresas grandes o muy grandes.
+
+En 2016 se expande a nuevos mercados y soluciones lanzando Watson Health e IBM
+Watson for Cloud en 2019
+
+En 2018 IBM introdujo OpenScale AI para ofrecer un ciclo de vida completo de
+compilación, implementación, validación, supervisión y gobierno de aplicaciones de ML
+4.4. IBM Watson
+Servicios clave ofrecidos bajo el paraguas Watson:
+▪ Watson Assistant: componentes orientados a mejorar la experiencia de servicio al cliente y al
+ agente
+▪ RegTech: enfocado a automatizar y mejorar los procesos regulatorios. Cumplir con las
+ regulaciones y reducir los riesgos.
+▪ Watson Health: servicio altamente especializado para la industria de la salud. Ayuda a las
+ empresas a mejorar la atención al paciente, la investigación y la eficiencia.
+▪ AIOps: optimización de operaciones de TI. Detección temprana de problemas y toma de
+ decisiones mejoradas
+▪ Watson Media: transmisión de video en vivo a gran escala. La IA genera subtítulos, búsqueda y
+ análisis sobre la marcha. Detección de amenazas en uso de cámaras de seguridad
+   4.4. IBM Watsonx
+Actualmente, IBM ha simpliﬁcado y uniﬁcado toda su oferta tecnológica bajo la marca watsonx,
+estructurándola en tres pilares fundamentales que cubren todo el ciclo de vida de la inteligencia artiﬁcial:
+
+1. watsonx.ai: Es el núcleo donde se crean y entrenan los modelos. Permite a los desarrolladores y
+cientíﬁcos de datos entrenar, validar, ajustar y desplegar modelos de IA predictiva y generativa.
+
+Ofrece un estudio con modelos fundacionales, herramientas de machine learning y acceso a modelos de
+código abierto (como los de Hugging Face).
+
+2. watsonx.data: Es donde reside la información necesaria para alimentar a la IA.Permite escalar y
+gestionar las cargas de trabajo de datos de forma eﬁciente.
+
+3. watsonx.governance Es el componente que asegura que la IA sea responsable y segura. Permite
+generar conﬁanza en el ciclo de vida de la IA mediante la transparencia y la explicabilidad. Monitoriza el
+rendimiento de los modelos en tiempo real, detecta sesgos o desviaciones y ayuda a cumplir con
+normativas internacionales
+4.4. IBM WatsonX
+Evolución temporal de las aplicaciones de
+IBM
+4. Plataformas de IA
+Comparación de servicios de Machine
+Learning en la nube.
+5. Flujo de trabajo para                                            el
+desarrollo de aplicaciones de IA
+Por lo general, una aplicación de IA se diferencia en dos escenarios:
+
+
+▪ Si el modelo que se necesita debe de ser desarrollado desde cero, es
+ decir, el modelo es personalizado.
+
+
+▪ Puede utilizarse uno estándar ya pre-entrenado.
+5. Flujo de trabajo para el
+desarrollo de aplicaciones de IA
+6. Oportunidades de las
+plataformas de IA
+▪ Desde hace no muchos años, la IA está tomando peso en la sociedad. Cada vez son
+ más las aplicaciones que hacen uso de esta tecnología para resolver problemas en
+ la sociedad gracias a la cantidad ingente de datos de los que hoy en día
+ disponemos.
+
+
+▪ Desde 2018, según IDC10, el mercado de las plataformas de software de IA ha
+ crecido exponencialmente hasta superar los 3.5 mil millones de dólares.
+
+
+▪ Desde el punto de vista de las ofertas de trabajo tienen una alta demanda de
+ personal cualiﬁcado para responder a las soluciones que exige la industria.
+7. Plataformas interactivas
+En otro ámbito diferente al que hemos visto hasta ahora, que es el de
+las plataformas ofertadas por las grandes corporaciones para entornos
+empresariales, están las plataformas interactivas que actualmente son
+muy populares en el ámbito del ML y DS.
+
+
+ ❑ Jupyter Notebooks
+ ❑ RPubs
+ ❑ Google Colab
+7. Plataformas interactivas
+Importancia de las plataformas interactivas
+▪ Estas plataformas han democratizado el acceso a herramientas de ciencia de datos
+ y Machine Learning, permitiendo a estudiantes, educadores, investigadores y
+ profesionales experimentar y desarrollar proyectos sin la necesidad de
+ infraestructura costosa.
+▪Son de suma importancia la reproducibilidad y la colaboración en la ciencia de datos
+ y el Machine Learning. Estas plataformas facilitan la compartición de conocimientos
+ y técnicas, lo cual es fundamental para el avance rápido del campo.
+▪ Están teniendo un gran impacto en la educación y la investigación, permitiendo un
+ enfoque más práctico y experimentar. Han llevado la educación en ciencia de datos y
+ Machine Learning a una audiencia global.
+7. Plataformas interactivas
+Jupyter Notebook
+▪Entorno interactivo pensado para crear documentos de Jupiter.
+▪Son documentos json que siguen un esquema versionado y que
+ contienen una lista ordenada de celdas de entrada salida que pueden
+ contener código o texto matemáticas gráﬁco o texto enriquecido.
+▪Se pueden convertir a varios formatos de salida estándar como HTML,
+ Latex, PDF o Python
+7. Plataformas interactivas
+Jupyter Notebook
+▪Es de código abierto y ampliamente utilizado en análisis de datos,
+ simulación numérica, modelado estadístico y machine learning.
+▪El origen del nombre "Jupyter" proviene de los lenguajes de
+ programación Julia, Python, y R, indicando su adaptabilidad a múltiples
+ lenguajes de programación.
+▪Permite compartir fácilmente investigación, ejemplos de código,
+ proyectos…
+7. Plataformas interactivas
+RPubs
+▪Es una plataforma de fácil acceso diseñada para compartir análisis de
+ datos y visualizaciones creadas con R y R Markdown.
+▪Permite a los usuarios publicar sus trabajos directamente desde
+ RStudio,
+▪Soporta la integración de diversos tipos de contenido en los
+ documentos publicados, incluyendo código R, gráﬁcas, narrativa,.. lo
+ cual promueve una comunicación efectiva de resultados de
+ investigación y análisis de datos.
+7. Plataformas interactivas
+Rpubs
+▪A diferencia de Jupyter Notebook y Google Colab, RPubs se enfoca exclusivamente
+ en el ecosistema de R, lo que lo hace ideal para la comunidad de estadística y análisis
+ de datos que preﬁere este lenguaje.
+
+▪RPubs no ofrece la ejecución en vivo de código o acceso a recursos
+ computacionales como GPUs y TPUs.
+
+▪Desempeña un papel crucial en la promoción de la ciencia reproducible dentro de la
+ comunidad de usuarios de R.
+7. Plataformas interactivas
+Google Colab
+▪ Plataforma gratuita en la nube que se basa Jupyter Notebook,
+▪ Su principal ventaja es la de proveer acceso gratuito a recursos computacionales como
+ GPUs y TPUs, lo cual es esencial para tareas de computación intensiva como el
+ entrenamiento de modelos de Machine Learning.
+▪No requiere conﬁguración y su integración con Google Drive y otros servicios de Google es
+ directa, lo que facilita la colaboración y el acceso a los notebooks desde cualquier lugar.
+
+▪Ha sido adoptado rápidamente por la comunidad de Machine Learning para
+ experimentación, prototipado rápido y colaboración en proyectos, especialmente
+ aquellos que requieren altos recursos computacionales.
+7. Google Colab
+Características:
+▪ Escribir y ejecutar código en Python tener que preocuparnos por ningún tema de
+ conﬁguración del sistema.
+▪ Ejecución de código en celdas.
+▪ Acceder de manera sencilla a los archivos de Google Drive
+▪ Gran potencia de cómputo sin coste.
+Limitaciones:
+▪ Tiempo de ejecución máximo de 12 horas
+ 7. Google Colab
+ 7.1. Acceso
+❑Ir al sitio de “Google Colab” (https://colab.research.google.com/), ir a “Archivo” (arriba
+ a la izquierda) y elegir la opción “Bloc de notas nuevo”
+ 7. Google Colab
+ 7.1. Acceso
+❑Ir a “Google Drive” (https://drive.google.com/drive/my-drive?hl=es), hacer “clic” en
+ “Nuevo” (arriba a la izquierda), elegir la opción “Mas” (la última del menú) y
+ seleccionar “Google Colaboratory”.
+ 7. Google Colab
+ 7.1. Notebook
+❑Tras acceder de cualquiera de las formas anteriores vemos el entorno de trabajo, que
+ se denomina Notebook.
+ 7. Google Colab
+ 7.1. Notebook
+La estructura del “Notebook” es la
+siguiente:
+
+❑- En la parte superior se indica el
+ nombre del archivo correspondiente.
+ La extensión será “.ipnb (“Interactive
+ Python NoteBook”)
+
+❑- Menú     desplegable    con   varias
+ opciones
+
+❑- Celda. Una “celda” es la unidad
+ mínima de ejecución dentro del
+ “Notebook”.
+ 7. Google Colab
+ 7.1. Notebook
+❑En una “celda” es posible escribir texto
+ o código Python.
+❑En la parte superior del notebook
+ tenemos las opciones para celda de
+ texto o de código.
+❑Las “celdas de texto” intercaladas
+ entre las “celdas de código” permiten
+ ir documentando el código que se
+ está desarrollando, permitiendo su
+ mejor compresión.
+ 7. Google Colab
+ 7.1. Notebook
+❑Tras escribir texto o código en la “celda” esta se puede ejecutar con el icono “play” o
+ pulsando las teclas “Shift+Enter”.
+
+❑En el caso de tratarse de una “celda de texto”, se admiten comandos básicos y
+ fórmulas de “Latex”. También se pueden insertar “links” e imágenes
+
+❑En el caso de una “celda de código”, al ejecutarla, aparecerá resultado debajo de la
+ “celda”.
+
+❑Al situarse el cursor en una celda (de código o de texto) aparece un menú en su
+ ángulo superior derecho que brinda diversas opciones
+7. Google Colab
+7.1. Notebook
+Permite notación estadística basada en LaTex
+7. Google Colab
+7.1. Notebook
+Permite ejecución de cualquier
+paquete de Python, incluidos las
+representaciones gráﬁcas.
+ 7. Google Colab
+ 7.2. Entorno de ejecución
+❑ Google Colab permite ejecutar código Python o R sobre diferentes conﬁguraciones
+ del equipo, sólo utilice CPU o además algún acelerador (utilizando GPU o TPU).
+
+❑ Existe un límite de tiempo de uso del servicio de unas 12 horas y de almacenamiento
+ en RAM. En cualquier caso, los recursos no están garantizados en la versión gratuita,
+ aunque si necesitamos capacidad de cómputo para operaciones es una buena
+ solución.
+
+❑ Tanto el uso de aceleradores como los límites indicados solo se tornan relevantes
+ para el caso de códigos muy complejos.
+7. Google Colab
+7.2. Entorno de ejecución
+Se conﬁgura desde el menú en la parte derecha del entorno
+7. Google Colab
+7.3. Archivos de datos
+Los archivos de datos que a los que el código puede acceder se pueden visualizar
+haciendo “click” en el ícono de una carpeta que se encuentra a la izquierda de la
+pantalla, entonces se abrirá hacia la izquierda una pestaña denominada “Archivos”.
+7. Google Colab
+7.3. Archivos de datos
+Archivos de datos en el equipo local
+Es necesario subir los datos localizados en el equipo local a la nube de Google.
+
+Se puede llevar a cabo haciendo “click” en el primer ícono del margen superior
+izquierdo
+ 7. Google Colab
+ 7.3. Archivos de datos
+Archivos en Drive
+
+Es necesario montar “Google Drive”. Esto se puede realizar de dos formas:
+
+❑ Indicando los siguientes comandos en la primera “celda de código” del “Notebook”.
+
+❑ Nos pedirá un código de validación
+ 7. Google Colab
+ 7.3. Archivos de datos
+❑ Utilizar el ícono del margen superior izquierdo de la pestaña “Archivos”
+7. Google Colab
+7.3. Archivos de datos
+Archivos de datos en algún repositorio
+
+Es necesario traer los datos desde el repositorio y puede que descomprimirlos.
+
+Este proceso se lleva a cabo con los comandos !wget y !unzip (heredados de Linux)
+en la primera celda
+
+
+
+
+Y pasarán a estar disponibles en nuestra carpeta “Archivos”
+7. Google Colab
+7.4. Guardar
+El Notebook se guarda de forma automática
+en Google Drive, pero también es posible
+hacerlo manualmente utilizando con la opción
+“Archivo” el menú superior.
+
+Hay varias guardar el Notebook en Drive, en
+GitHub o descargarla en el equipo local. En
+este último caso puede ser en formato “.ipnb”
+o “.py”.
+7. Google Colab
+Enlaces de interés:
+
+Referencia de marcado:
+https://colab.research.google.com/notebooks/markdown_guide.ipynb
+
+Características:
+https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+
+Datos externos: https://colab.research.google.com/notebooks/io.ipynb
+
